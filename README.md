@@ -4,6 +4,8 @@ When running the application using ```./gradlew run```
 
 - ```curl http://localhost:8080/mgmt/health``` will show you that the grpc server is up at the specified port of 8081
 
+To Test the gRPC server, run the integration test using the following task
+- ```./gradlew test```
 
 ## Micronaut 2.5.5 Documentation
 
