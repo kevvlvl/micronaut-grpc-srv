@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: micronautGrpcSrv
+
+endpoints:
+  all:
+    path: /mgmt
+  health:
+    enabled: true
+    details-visible: ANONYMOUS
+
+grpc:
+  server:
+    port: 8081
+    keep-alive-time: 1h
+    max-inbound-message-size: 1024
